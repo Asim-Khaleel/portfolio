@@ -1,0 +1,25 @@
+.experience-section {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+
+  .headerText {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .date {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 10px;
+  }
+
+  .description {
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 5px;
+    word-wrap: break-word;
+  }
+}

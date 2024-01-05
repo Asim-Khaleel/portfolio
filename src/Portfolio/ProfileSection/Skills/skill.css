@@ -1,0 +1,35 @@
+/* skill.css */
+
+.skill {
+  padding: 5px;
+  width: 100%;
+}
+
+.skill-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-right: 5px;
+  width: 55px;
+  overflow-x: auto;
+}
+
+.skill-bar {
+  background-color: #ecf0f1;
+  height: 17px;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-grow: 1;
+  transition: width 0.5s ease;
+}
+
+.skill-fill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

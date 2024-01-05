@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #c1c1c1;
+  margin: 5px;
+
+  &:hover {
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16);
+  }
+
+  .headerText {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .description {
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
