@@ -17,7 +17,7 @@ const ExperienceSection = ({
   const formattedEndDate = formatDate(endDate);
 
   return (
-    <div className="experience-section">
+    <div className="experienceSection">
       <div className="headerText">{companyName}</div>
       <span className="date">{formattedStartDate}</span> -
       <span className="date">{formattedEndDate}</span>
