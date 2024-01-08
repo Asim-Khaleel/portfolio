@@ -6,11 +6,11 @@ const Skills = ({ skills }) => {
     <div className="skill">
       <h2>Skills</h2>
       {skills.map((skill, index) => (
-        <div key={index} className="skill-container">
-          <div className="skill-name">{skill.skill}</div>
-          <div className="skill-bar">
+        <div key={index} className="skillContainer">
+          <div className="skillName">{skill.skill}</div>
+          <div className="skillBar">
             <div
-              className="skill-fill"
+              className="skillFill"
               style={{
                 width: `${skill.percentage}%`,
                 backgroundColor: "#3498db",
