@@ -1,0 +1,33 @@
+.skill {
+  padding: 5px;
+  width: 100%;
+}
+
+.skillContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skillName {
+  font-weight: bold;
+  margin-right: 5px;
+  width: 55px;
+  overflow-x: auto;
+}
+
+.skillBar {
+  background-color: #ecf0f1;
+  height: 17px;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-grow: 1;
+  transition: width 0.5s ease;
+}
+
+.skillFill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+.experience {
+  display: flex;
+  height: 51vh;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+  flex-direction: column;
+  margin: 0px 5px 5px 5px;
+  overflow-y: auto;
+
+  .headerText {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .description {
+    margin-left: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}

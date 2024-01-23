@@ -1,0 +1,12 @@
+.portfolio {
+  padding: 10px;
+}
+.aboutAndExperience {
+  display: flex;
+  flex-direction: column;
+  width: 77%;
+}
+
+.body {
+  display: flex;
+}
